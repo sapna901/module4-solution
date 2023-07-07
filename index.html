@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Greeting Example</title>
+  <script>
+    function greetNames() {
+      var names = ["John", "Jane", "Michael", "David", "Jennifer"];
+      
+      for (var i = 0; i < names.length; i++) {
+        var name = names[i];
+        
+        if (name.charAt(0).toUpperCase() === 'J') {
+          console.log("Goodbye " + name);
+        } else {
+          console.log("Hello " + name);
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <h1>Greeting Example</h1>
+  <button onclick="greetNames()">Greet Names</button>
+</body>
+</html>
